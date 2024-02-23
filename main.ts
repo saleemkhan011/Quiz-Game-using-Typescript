@@ -46,7 +46,7 @@ let quiz = async () => {
         }
 
         console.log()
-        console.log(chalk.bgBlueBright(`${name.name} your score is ${score} out of 3`))
+        console.log(chalk.bgBlue(`${name.name} your score is ${score} out of 3`))
     }
 
     quiz();
